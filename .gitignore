@@ -12,3 +12,13 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+# We dont need to store dependencies in VCS
+vendor/
+
+# DS_Store
+.DS_Store
+.DS_Store?
+
+# Jetbrains files
+.idea/
